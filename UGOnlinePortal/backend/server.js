@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://ugonlineportalattendance.onrender.com',
+  origin: 'https://ugportal2-1.onrender.com',
   credentials: true, // Include cookies if needed
 }
 ));
